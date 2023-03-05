@@ -6,9 +6,6 @@ export default {
     title: 'Chat',
     component: ChatDisplay
 } as ComponentMeta<typeof ChatDisplay>
-const Template: ComponentStory<typeof ChatDisplay> = (args) => <ChatDisplay {...args} />
+const Template: ComponentStory<typeof ChatDisplay> = (args) => <ChatDisplay  />
 
 export const Chats = Template.bind({})
-Chats.args = {
-    name: 'name'
-}
