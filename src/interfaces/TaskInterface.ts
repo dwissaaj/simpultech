@@ -5,4 +5,3 @@ export interface TaskProps {
     timeTask: Date,
     descriptionTask: string
 }
-export const TaskStyle = "font-inter"

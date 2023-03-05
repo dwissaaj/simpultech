@@ -7,6 +7,14 @@ module.exports = {
     extend: {
       fontFamily : {
         inter: ['Inter']
+      },
+      spacing: {
+        width : {
+          '150' : '730px'
+        },
+        height: {
+          '150' : '730px'
+        }
       }
     },
   },

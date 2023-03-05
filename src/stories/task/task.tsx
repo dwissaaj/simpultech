@@ -5,8 +5,8 @@ import { ReactComponent as More } from "../assets/more.svg";
 import { ReactComponent as Navigate } from "../assets/navi.svg";
 import { ReactComponent as Clock} from "../assets/clock.svg";
 import { ReactComponent as Edit} from "../assets/edit.svg";
-import {TaskProps, TaskStyle} from "../../interfaces/interface";
 import {useState} from "react";
+import {TaskProps} from "../../interfaces/TaskInterface";
 
 
 
